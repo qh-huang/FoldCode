@@ -1,0 +1,11 @@
+{
+    "name": "Fold Code for Github",
+    "description": "Enable code-folding in github",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {}
+}
